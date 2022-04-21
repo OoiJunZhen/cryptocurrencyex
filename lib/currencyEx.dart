@@ -173,7 +173,7 @@ class _CurrencyExScreen extends State<CurrencyExScreen> {
       type = parsedData['rates'][currency]['type'];
       setState(() {
         desc =
-            "1 BitCoin: \n Name of currency: $name\n Unit of currency: $unit\n Value of currency: $value\n Type of currency: $type";
+            "1 BitCoin equal to: \n Name of currency: $name\n Unit of currency: $unit\n Value of currency: $value\n Type of currency: $type";
       });
       progressDialog.dismiss();
     }

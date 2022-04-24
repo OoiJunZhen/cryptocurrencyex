@@ -18,13 +18,11 @@ class currencyExPage extends StatelessWidget {
         ),
         body: SingleChildScrollView(
           child: Column(children: [
-            // ignore: sized_box_for_whitespace
             Container(
                 height: 110,
                 child: Center(
                   child: Image.asset('assets/images/cryptocurrencyEx.png'),
                 )),
-            // ignore: avoid_unnecessary_containers, prefer_const_constructors
             Container(child: CurrencyExScreen()),
           ]),
         ),

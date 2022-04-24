@@ -117,7 +117,7 @@ class _CurrencyExScreen extends State<CurrencyExScreen> {
       child: Column(
         children: [
           const Text(
-            "CryptoCurrency ExChange Calculator",
+            "CryptoCurrency ExChange Converter",
             style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
           ),
           const SizedBox(height: 30),
